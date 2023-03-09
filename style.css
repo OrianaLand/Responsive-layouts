@@ -72,31 +72,33 @@ img {
     padding: 3em 0;
 }
 
-.img-info-one__text {
+.img-info__text {
     color: #FFFFFF;
     padding: 1em;
 }
 
-.img-info-one__text__title {
+.img-info__text__title {
     font-family: Playfair Display;
     font-size: 2.25rem;
     padding-bottom: 1em;
 }
 
-.img-info-one__text__p {
+.img-info__text__p {
     font-size: 1.313rem;
 }
 
-.img-info-one__img {
+.img-info__img {
     width: 90%;
     padding: 2em 1em;
     margin: auto;
 }
 
+.img-info-two {
+    background-color: #824936;
+    padding: 3em 0;
+}
+
 @media (min-width: 600px) {
-    .intro {
-        background-color: lightgreen;
-    }
 
     .intro__title {
         width: 60%;
@@ -123,12 +125,13 @@ img {
         width: 50%;
     }
 
-    .img-info-one {
+    .img-info-one,
+    .img-info-two {
         padding: 4em 0;
     }
 
-    .img-info-one__text,
-    .img-info-one__img {
+    .img-info__text,
+    .img-info__img {
         padding: 0;
         width: 50%;
     }
