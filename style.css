@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.intro {
+    background-color: #F3EED9;
+    min-height: 660px;
+    display: flex;
+}
+
+.intro__header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.125rem;
+    font-weight: light;
+}
+
+.intro__title {
+    font-family: Playfair;
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: #824936;
+    letter-spacing: -3px;
+    margin: 0 0.5rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-center {
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        background-color: lightgreen;
+    }
+
+    .intro__title {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
