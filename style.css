@@ -58,10 +58,6 @@ img {
     padding-top: 1em;
 }
 
-.info__text {
-    display: flex;
-}
-
 .info__text__p {
     font-size: 1.313rem;
     padding: 1em;
@@ -87,6 +83,7 @@ img {
     }
 
     .info__text {
+        flex-direction: row;
         gap: 48px;
     }
 
