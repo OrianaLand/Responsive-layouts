@@ -60,7 +60,37 @@ img {
 
 .info__text__p {
     font-size: 1.313rem;
+    padding: 1em 1.25em;
+}
+
+.info__text__p+.info__text__p {
+    padding-bottom: 2em;
+}
+
+.img-info-one {
+    background-color: #222C2A;
+    padding: 3em 0;
+}
+
+.img-info-one__text {
+    color: #FFFFFF;
     padding: 1em;
+}
+
+.img-info-one__text__title {
+    font-family: Playfair Display;
+    font-size: 2.25rem;
+    padding-bottom: 1em;
+}
+
+.img-info-one__text__p {
+    font-size: 1.313rem;
+}
+
+.img-info-one__img {
+    width: 90%;
+    padding: 2em 1em;
+    margin: auto;
 }
 
 @media (min-width: 600px) {
@@ -80,6 +110,7 @@ img {
     .container {
         width: 80%;
         margin: auto;
+        display: flex;
     }
 
     .info__text {
@@ -89,6 +120,21 @@ img {
 
     .info__text__p {
         padding: 1.5em 0 2em;
+        width: 50%;
+    }
+
+    .img-info-one {
+        padding: 4em 0;
+    }
+
+    .img-info-one__text,
+    .img-info-one__img {
+        padding: 0;
+        width: 50%;
+    }
+
+    .img-info-spacing {
+        gap: 48px;
     }
 
 }
