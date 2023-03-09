@@ -140,4 +140,9 @@ img {
         gap: 48px;
     }
 
+    .img-info--reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
 }
